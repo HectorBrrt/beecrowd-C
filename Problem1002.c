@@ -17,6 +17,6 @@ int main() {
     scanf("%lf", &R);
 
     double A = 3.14159 * R*R;
-    
-    printf("A= %lf", A);
+
+    printf("A= %.4lf", A);
 }
