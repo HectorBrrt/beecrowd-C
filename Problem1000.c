@@ -8,3 +8,10 @@ This problem has no input.
 Output
 You must print the message Hello World! and then the endline as shown below.
 */
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
