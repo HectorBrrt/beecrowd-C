@@ -8,3 +8,20 @@ Output
 Print the letter X (uppercase) with a blank space before and after the equal signal followed by the value of X, 
 according to the following example.
 */
+
+#include <stdio.h>
+
+int main() {
+    int A,B;
+
+    printf("A: ");
+    scanf("%d", &A);
+
+    printf("B: ");
+    scanf("%d", &B);
+
+    int X = A+B;
+
+    printf("X: %d", X);
+
+}
