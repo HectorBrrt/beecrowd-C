@@ -24,5 +24,4 @@ int main() {
     int SUM = A+B;
 
     printf("X: %d", SUM);
-
 }
