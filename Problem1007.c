@@ -10,3 +10,25 @@ Output
 Print DIFERENCA (DIFFERENCE in Portuguese) with all the capital letters, 
 according to the following example, with a blank space before and after the equal signal.
 */
+
+#include <stdio.h>
+
+int main(){
+    int A,B,C,D,DIFERENCE;
+
+    printf("A = ");
+    scanf("%d", &A);
+
+    printf("B = ");
+    scanf("%d", &B);
+
+    printf("C = ");
+    scanf("%d", &C);
+
+    printf("D = ");
+    scanf("%d", &D);
+
+    DIFERENCE = (A * B - C * D);
+
+    printf("DIFERENCE = %d", DIFERENCE);
+}
