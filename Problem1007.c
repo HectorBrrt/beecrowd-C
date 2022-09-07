@@ -29,6 +29,5 @@ int main(){
     scanf("%d", &D);
 
     DIFERENCE = (A * B - C * D);
-
     printf("DIFERENCE = %d", DIFERENCE);
 }
