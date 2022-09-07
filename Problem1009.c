@@ -15,14 +15,23 @@ Output
 Print the seller's total salary, according to the given example.
 */
 
+#include <stdio.h>
+
 int main(){
     char name[30];
-    double fixed_salary;
-    int sales_made;
+    double fixed_salary, sales_made;
 
     printf("Name: ");
     scanf("%s", name);
 
-    printf("Fixed salary: R$ ");
+    printf("Fixed salary: U$ ");
+    scanf("%lf", &fixed_salary);
+
+    printf("Total sales made (in money): U$ ");
+    scanf("%lf", &sales_made);
+
+    double total = fixed_salary + sales_made*0.15;
+
+    printf("Total salary: U$ %.2lf", total);
 
 }
