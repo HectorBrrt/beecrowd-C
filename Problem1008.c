@@ -24,7 +24,7 @@ int main(){
     printf("Worked hours (in a month):");
     scanf("%d", &w_hou);
 
-    printf("Amount received per hour: ");
+    printf("Amount received per hour: R$ ");
     scanf("%lf", &pay);
 
     printf("Salary  = R$ %.2f", pay*w_hou);
