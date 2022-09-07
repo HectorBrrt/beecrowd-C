@@ -10,6 +10,8 @@ write the final salary (total) of this seller at the end of the month , with two
 Input
 The input file contains a text (employee's first name), and two double precision values,
 that are the seller's salary and the total value sold by him/her.
+
 Output
 Print the seller's total salary, according to the given example.
 */
+
