@@ -12,3 +12,21 @@ Print the message "MEDIA"(average in Portuguese) and the student's average accor
 with a blank space before and after the equal signal.
 */
 
+#include <stdio.h>
+
+int main(){
+    double A, B, C, average ;
+
+    printf("Grade A = ");
+    scanf("%lf", &A);
+
+    printf("Grade B = ");
+    scanf("%lf", &B);
+
+    printf("Grade C = ");
+    scanf("%lf", &C);
+
+    average  = (A*2+B*3+C*5)/10;
+
+    printf("MEDIA = %.1f", average);
+}
