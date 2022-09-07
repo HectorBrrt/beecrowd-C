@@ -13,3 +13,19 @@ Output
 Print the message "MEDIA"(average in Portuguese) and the student's average according to the following example, 
 with 5 digits after the decimal point and with a blank space before and after the equal signal.
 */
+
+#include <stdio.h>
+
+int main(){
+    double A, B, average ;
+
+    printf("A = ");
+    scanf("%lf", &A);
+
+    printf("B = ");
+    scanf("%lf", &B);
+
+    average  = (A*3.5 + B*7.5)/11.0;
+
+    printf("MEDIA = %.5f", average);
+}
