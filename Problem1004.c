@@ -17,7 +17,6 @@ int main() {
 
     printf("B: ");
     scanf("%d", &n2);
-
     int PROD = n1*n2;
 
     printf("PROD = %d", PROD);
