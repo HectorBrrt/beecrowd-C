@@ -33,5 +33,4 @@ int main(){
     double total = fixed_salary + sales_made*0.15;
 
     printf("Total salary: U$ %.2lf", total);
-
 }
