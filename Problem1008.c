@@ -11,3 +11,21 @@ worked hours amount and the amount the employee receives per worked hour.
 Output
 Print the number and the employee's salary, according to the given example, with a blank space before and after the equal signal.
 */
+
+#include <stdio.h>
+
+int main(){
+    int emp_num, w_hou;
+    double pay;
+
+    printf("Employee's number: ");
+    scanf("%d", &emp_num);
+
+    printf("Worked hours (in a month):");
+    scanf("%d", &w_hou);
+
+    printf("Amount received per hour: ");
+    scanf("%lf", &pay);
+
+    printf("Salary  = R$ %.2f", pay*w_hou);
+}
