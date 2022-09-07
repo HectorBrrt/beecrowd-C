@@ -15,3 +15,14 @@ Output
 Print the seller's total salary, according to the given example.
 */
 
+int main(){
+    char name[30];
+    double fixed_salary;
+    int sales_made;
+
+    printf("Name: ");
+    scanf("%s", name);
+
+    printf("Fixed salary: R$ ");
+
+}
