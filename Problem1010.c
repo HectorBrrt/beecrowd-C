@@ -30,5 +30,4 @@ int main(){
     double total = (units1*price1)+(units2*price2);
 
     printf("Total price: U$ %.2lf", total);
-
 }
