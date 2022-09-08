@@ -14,3 +14,21 @@ The output file must be a message like the following example where "Valor a paga
 Remember the space after ":" and after "R$" symbol. The value must be presented with 2 digits after the point.
 */
 
+#include <stdio.h>
+
+int main(){
+    int code1, units1;
+    double price1;
+    printf("Product 1: ");
+    scanf("%d %d %lf", &code1, &units1, &price1);
+
+    int code2, units2;
+    double price2;
+    printf("Product 2: ");
+    scanf("%d %d %lf", &code2, &units2, &price2);
+
+    double total = (units1*price1)+(units2*price2);
+
+    printf("Total price: U$ %.2lf", total);
+
+}
