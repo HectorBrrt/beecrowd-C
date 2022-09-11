@@ -23,5 +23,4 @@ int main() {
     int X = A+B;
 
     printf("X: %d", X);
-
 }
