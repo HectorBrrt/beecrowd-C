@@ -13,7 +13,6 @@ Print the number and the employee's salary, according to the given example, with
 */
 
 #include <stdio.h>
-#include <stdio.h>
 
 int main(){
     int emp_num, w_hou;
