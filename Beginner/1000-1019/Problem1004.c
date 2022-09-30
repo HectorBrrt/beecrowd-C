@@ -10,6 +10,7 @@ Print the message "PROD" and PROD according to the following example, with a bla
 */
 
 #include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int n1,n2;
