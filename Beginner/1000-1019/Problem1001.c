@@ -12,7 +12,6 @@ according to the following example.
 */
 
 #include <stdio.h>
-#include <stdio.h>
 
 int main() {
     int A,B;
