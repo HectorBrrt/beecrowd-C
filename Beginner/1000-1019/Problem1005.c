@@ -15,7 +15,6 @@ with 5 digits after the decimal point and with a blank space before and after th
 */
 
 #include <stdio.h>
-#include <stdio.h>
 
 int main(){
     double A, B, average ;
