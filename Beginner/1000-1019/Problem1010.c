@@ -15,6 +15,7 @@ Remember the space after ":" and after "R$" symbol. The value must be presented 
 */
 
 #include <stdio.h>
+#include <stdio.h>
 
 int main(){
     int code1, units1;
