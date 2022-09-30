@@ -12,7 +12,6 @@ according to the following example, with a blank space before and after the equa
 */
 
 #include <stdio.h>
-#include <stdio.h>
 
 int main(){
     int A,B,C,D,DIFERENCE;
