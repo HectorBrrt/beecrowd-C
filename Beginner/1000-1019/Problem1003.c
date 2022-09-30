@@ -13,7 +13,6 @@ with a blank space before and after the equal signal followed by the correspondi
 */
 
 #include <stdio.h>
-#include <stdio.h>
 
 int main() {
     int A,B;
