@@ -13,6 +13,7 @@ with a blank space before and after the equal signal.
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     double A, B, C, average ;
