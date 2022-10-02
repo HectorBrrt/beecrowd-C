@@ -16,6 +16,7 @@ Print the seller's total salary, according to the given example.
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     char name[30];
