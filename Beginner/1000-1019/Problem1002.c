@@ -12,6 +12,7 @@ as in the example bellow, with four places after the decimal point. Use all doub
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     double R;
